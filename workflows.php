@@ -4,7 +4,7 @@ date_default_timezone_set('Asia/Shanghai');
 
 $result = array();
 
-function set_result( $uid, $title, $sub, $arg, $icon)
+function set_result( $uid, $arg, $title, $sub, $icon)
 {
     $item = array(
         'uid' => $uid,
